@@ -29,13 +29,13 @@ gem 'jbuilder', '~> 2.7'
 gem 'bootsnap', '>= 1.4.4', require: false
 
 group :development, :test do
-  gem 'rspec-rails','3.1.0'
+  gem 'rspec', '~> 3.4'
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
 end
 
 group :test do
-  gem 'capybara','2.7.1'
+  gem 'capybara', '~> 3.38'
 end
 
 group :development do
